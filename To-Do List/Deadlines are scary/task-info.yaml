@@ -253,6 +253,39 @@ files:
     if __name__ == '__main__':
         ToDoList('todolist.todolist').run_tests()
   learner_created: false
+- name: todolist/todo.db
+  visible: true
+  learner_created: true
+- name: todo.db
+  visible: true
+  learner_created: true
+- name: temp.db
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/105/stages/572/implement
-status: Unchecked
-record: -1
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    Your program doesn't show the menu from example
+
+    Please find below the output of your program during this failed test.
+    Note that the '>' character indicates the beginning of the input line.
+
+    ---
+
+
+    1) Today's tasks
+    2) Week's tasks
+    3) All tasks
+    4) Missed tasks
+    5) Add task
+    6) Delete task
+    0) Exit
+
+    > 0
+
+    Bye!
+  time: Fri, 17 Jul 2020 17:13:01 UTC
+record: 3
